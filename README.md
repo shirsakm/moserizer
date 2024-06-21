@@ -1,7 +1,22 @@
+# Deprecated Warning
+
+This repository is not actively maintained and has been replaced by [Atno](https://github.com/shirsakm/atno) which is more user-friendly and has a GUI.
+
 # Moserizer
 
-Memorize things about the elements from the Modern Periodic Table. 
-## Errors
+Memorize physical properties about elements from the Modern Periodic Table.
+
+## Usage
+
+```sh
+$ pip install -r requirements.txt
+```
+
+```sh
+$ python src/main.py
+```
+
+## Error Handling
 
 ### `periodic_table.json` is missing
 
@@ -26,6 +41,5 @@ This error will occur when the JSON file is present but cannot be decoded. Simpl
 - [ ] Implement electronic configuration.
 - [ ] Polish up the UX.
 
-## Sources 
-
-The data is from [Browserinator's Periodic Table JSON repo](https://github.com/Bowserinator/Periodic-Table-JSON).
+## Acknowledgements
+- [Browserinator's Periodic Table JSON repo](https://github.com/Bowserinator/Periodic-Table-JSON).
